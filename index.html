@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CineMania</title>
+</head>
+<body>
+  <header>
+    <h1>Os Melhores Filmes</h1>
+  </header>
+  <main>
+    <section>
+      <input type="text" placeholder="Pesquise por título, gênero ou ator"
+      id="campo-pesquisa">
+      <button onclick="pesquisar()">Pesquisar</button>
+    </section>
+    <section class="resultados-filmes"
+    id="resultados-filmes">
+    <div id="resultados-pesquisa" class="resultados-container">
+      <!-- Resultados de filmes aparecerão aqui -->
+    </div>
+  </section>
+  </main>
+  <footer>
+    <p>2024 CineMania. Todos os direitos reservados.</p>
+    <p>Entre em contato pelo email: contato@cinemania.com</p>
+  </footer>
+  <script src="dados.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
